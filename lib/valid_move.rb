@@ -15,9 +15,6 @@ end
 #1. Present on the game board.
 #2. Not already filled with a token.
 
-Present on the game board.
-Not already filled with a token.
-
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil
     false
