@@ -1,13 +1,13 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
   if position_taken?
-    return true
+    index.between?(0,8)
   else
     return false
   end
 end
 
-#index.between?(0,8) ||
+# ||
 #In this lab, you'll build a #valid_move? method
 #that accepts a board and an index to check and
 #returns true if the move is valid and false or nil if not.
