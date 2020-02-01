@@ -5,6 +5,13 @@ if index.between?(0,8)
 else
   return false
 end
+
+if position_taken? == true
+  return true
+else
+  return false
+end
+
 end
 
 #Not already filled with a token.
