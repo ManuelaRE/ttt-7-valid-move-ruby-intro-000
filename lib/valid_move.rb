@@ -9,7 +9,6 @@ def valid_move?(board, index)
   end
 end
 
-# ||
 #In this lab, you'll build a #valid_move? method
 #that accepts a board and an index to check and
 #returns true if the move is valid and false or nil if not.
